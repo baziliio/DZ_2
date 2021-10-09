@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 117%;
+    color: #737373;
+    background-color: #fff;
+}
+
+/*HEADER*/
+
+.header-container {
+    max-width: 75.5%;
+    padding: 0 0px;
+    margin: auto;
+}
+
+.header-block {
+    
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    position: absolute;
+                
+}
+
+.header-nav{
+    padding-left: 100px;
+}
+.nav-list {
+    display: flex;
+    padding: 40px 0 ;
+    list-style: none;
+        
+}
+
+.nav-link {
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #737373;
+}
+
+@media screen and (max-width:414px) {
+    .header-row {
+        flex-direction: column;
+          
+    }
+  
+    .logo{
+        order: -20px ;
+    }
+    .nav-list{
+        flex-direction: column;
+        padding: 83px 0;
+            }
+
+    .nav-list{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+    }
+}
+
+/*MAIN*/
+
+.main-block {
+background-image: url("../images/cover.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+max-width: 100%;
+height: 793px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    max-width: 75.5%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    
+}
+
+.main-text {
+    max-width: 520px;
+    padding: 170px 0;
+    }
+
+h1 {
+    font-family: "Montserrat", sans-serif;;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    color: #252B42;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    max-width: 376px;
+    padding: 35px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #737373;
+    line-height: 30px;    
+    }
+
+.main-buttons {
+    display: flex;
+    position: absolute;
+    margin-top: 370px ;
+    }
+
+.main-btn-first {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+    background: #FFA62B;
+    border-radius: 37px;
+    border: 0;
+    padding: 10px 36px;
+    margin-right: 10px;
+}
+
+.main-btn-second {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #00A0C1;
+    background: none;
+    border-radius: 37px;
+    border-color: #00A0C1;
+    border: solid 1px;
+    padding: 10px 36px;
+}
+
+.main-box{
+    display: flex;
+    width: 87%;
+    flex-wrap: wrap;
+    margin: 0 12%;
+    }
+
+.main-box-column{
+    width: calc(87%/3);
+    
+             
+    }
+
+.item {
+    max-width: 340px;
+    padding: 35px 10px 35px 40px;
+    background-color: #fff;
+    position: relative;
+    top: -20px;
+    box-shadow: 0px 13px 19px rgba(0,0,0,0.07);
+
+    }
+
+.item.color {
+    background-color: #00A0C1;
+}
+        
+
+.item.color {
+    background-color: #00A0C1;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    max-width: 300px;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #252B42;
+    line-height: 32px;
+    }
+
+.item-text {
+    font-family: "Montserrat", sans-serif;
+    max-width: 224px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    line-height: 20px;
+    }
+
+.h3.color {
+    color: #fff;
+}
+
+.item-text.color {
+    color: #fff;
+}
+
+
+/* SECTION */
+
+.section-block {
+    background-color: #FAFAFA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+        }
+
+.section-text-block {
+    max-width: 511px;
+    padding: 200px 0;
+    text-align: center;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    color: #252B42;
+    padding: 10px 0;
+}
+
+.section-text {
+    font-family: "Montserrat", sans-serif;;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #737373;
+    padding: 10px 0;
+}
+
+.section-box {
+    display: flex;
+    width: 87%;
+    flex-wrap: wrap;
+    margin: 0 180px;
+}
+
+.section-box-column{
+    width: calc(87%/4);
+}
+
+.sctn-item{
+    text-align: center;
+    max-width: 230px;
+    padding: 30px 40px;
+    background-color: #fff;
+    position: relative;
+    top: -150px;
+}
+
+
+
+.business {
+    background: url(0) center/cover no-repeat;
+}
